@@ -78,16 +78,25 @@
 - Responsive with keyboard-accessibility where applicable
 
 ---
-### 📈 Live Demo
-🎥 [Watch Demo Video](https://github.com/Bhavyasree2003/-Hr-Dashboard-Advanced-/blob/main/demo2_GyMWnF1T.mp4)
+🚧 Setup Instructions
+# 1. Clone the repo
+git clone https://github.com/yourusername/hr-dashboard.git
 
+# 2. Move into the project directory
+cd hr-dashboard
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
+
+# 5. Open in your browser
+# Visit: http://localhost:3000
 
 ---
-🚧 Setup Instructions
-git clone https://github.com/yourusername/hr-dashboard.git
-cd hr-dashboard
-npm install
-npm run dev
+### 📈 Live Demo
+🎥 [Watch Demo Video](https://github.com/Bhavyasree2003/-Hr-Dashboard-Advanced-/blob/main/demo2_GyMWnF1T.mp4)
 
 ---
 
