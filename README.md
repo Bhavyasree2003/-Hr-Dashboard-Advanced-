@@ -79,20 +79,19 @@
 
 ---
 🚧 Setup Instructions
-# 1. Clone the repo
+#  Clone the repo
 git clone https://github.com/yourusername/hr-dashboard.git
 
-# 2. Move into the project directory
+#  Move into the project directory
 cd hr-dashboard
 
-# 3. Install dependencies
+#  Install dependencies
 npm install
 
-# 4. Run the development server
+# Run the development server
 npm run dev
 
-# 5. Open in your browser
-# Visit: http://localhost:3000
+
 
 ---
 ### 📈 Live Demo
