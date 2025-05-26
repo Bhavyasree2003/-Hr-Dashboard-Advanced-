@@ -1,4 +1,4 @@
-# Hr Dashboard**(Advanced)**
+# Hr Dashboard(Advanced)
 
 ### 🔧 **Tech Stack**
 
