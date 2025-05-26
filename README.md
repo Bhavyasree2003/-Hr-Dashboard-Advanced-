@@ -1,73 +1,90 @@
-# Welcome to your Lovable project
+# Hr Dashboard**(Advanced)**
 
-## Project info
+### 🔧 **Tech Stack**
 
-**URL**: https://lovable.dev/projects/7b3b67d5-b4ee-482a-8f31-3709667d9579
+- **React (with Next.js App Router)**
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
+- **State Management:** Context API or Zustand (your choice)
+- **Optional Bonus:** Chart.js, NextAuth.js
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 **Challenge: Build a Mini HR Performance Dashboard**
 
-**Use Lovable**
+> You're building a Dashboard for HR Managers to track employee performance, manage bookmarks, and view detailed insights.
+> 
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7b3b67d5-b4ee-482a-8f31-3709667d9579) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+### 🎯 **Core Features (Must Have)**
 
-**Use your preferred IDE**
+### 1. 🏠 **Dashboard Homepage (`/`)**
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Fetch and display dummy data (use `https://dummyjson.com/users?limit=20`).
+- Render user cards with:
+    - Full Name, Email, Age, Department (generate via `randomuser.me` + mock logic)
+    - A rating bar (1–5 stars) showing performance (randomized or assign logic)
+    - Buttons: `View`, `Bookmark`, and `Promote`
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 2. 🔍 **Search & Filter**
 
-Follow these steps:
+- A search bar to filter users by name, email, or department (case-insensitive).
+- Multi-select filter dropdown by department or performance rating.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 3. 👤 **Dynamic User Details Page (`/employee/[id]`)**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Show detailed profile:
+    - Address, Phone, Bio (mock), Past performance history (randomized list)
+    - Show performance rating as stars and color-coded badges
+- Add a tabbed UI:
+    - `Overview`, `Projects`, `Feedback`
+    - Each tab should load dynamically (mock data okay)
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 4. 📌 **Bookmark Manager (`/bookmarks`)**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- List all bookmarked employees.
+- Allow:
+    - Removing from bookmarks
+    - Triggering “Promote” or “Assign to Project” (just UI actions)
 
-**Edit a file directly in GitHub**
+### 5. 📊 **Analytics Page (`/analytics`)**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- Create a chart (using Chart.js or any lib) showing:
+    - Department-wise average ratings
+    - Bookmark trends (mocked)
+- Optional: Use server-side rendering or static generation for this page.
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### ⚙️ **Tech Requirements**
 
-## What technologies are used for this project?
+- **Next.js App Router**
+- **Client-side and/or server-side data fetching**
+- Use of:
+    - **Custom hooks** (`useBookmarks`, `useSearch`)
+    - **Reusable components** (Card, Badge, Modal, Button)
+    - **Responsive design** (Mobile to Desktop)
+- **Dark/Light mode** using Tailwind classes
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 🧠 **Advanced Expectations**
 
-## How can I deploy this project?
+- Proper state management (Context or Zustand)
+- Component-level loading & error states
+- Modular folder structure (`components/`, `hooks/`, `lib/`, `pages/`)
+- Form handling (e.g., for "Feedback" tab)
+- Responsive with keyboard-accessibility where applicable
 
-Simply open [Lovable](https://lovable.dev/projects/7b3b67d5-b4ee-482a-8f31-3709667d9579) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+### ⭐️ **Bonus (Extra Points)**
 
-Yes, you can!
+- Add **Authentication** (NextAuth.js or mock login screen)
+- Add a “Create User” modal or page with basic form validation
+- Paginate or infinite scroll the main user list
+- Animate tab/content transitions (Framer Motion or Tailwind)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
