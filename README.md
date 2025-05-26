@@ -78,9 +78,16 @@
 - Responsive with keyboard-accessibility where applicable
 
 ---
-### Demo
+### 📈 Live Demo
 🎥 [Watch Demo Video](https://github.com/Bhavyasree2003/-Hr-Dashboard-Advanced-/blob/main/demo2_GyMWnF1T.mp4)
 
+
+---
+🚧 Setup Instructions
+git clone https://github.com/yourusername/hr-dashboard.git
+cd hr-dashboard
+npm install
+npm run dev
 
 ---
 
