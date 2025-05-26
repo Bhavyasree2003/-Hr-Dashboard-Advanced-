@@ -79,12 +79,5 @@
 
 ---
 
-### ⭐️ **Bonus (Extra Points)**
-
-- Add **Authentication** (NextAuth.js or mock login screen)
-- Add a “Create User” modal or page with basic form validation
-- Paginate or infinite scroll the main user list
-- Animate tab/content transitions (Framer Motion or Tailwind)
-
 ---
 
