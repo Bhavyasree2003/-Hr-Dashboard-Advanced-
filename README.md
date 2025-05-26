@@ -78,6 +78,9 @@
 - Responsive with keyboard-accessibility where applicable
 
 ---
+### Demo
+🎥 [Watch Demo Video](https://github.com/Bhavyasree2003/-Hr-Dashboard-Advanced-/blob/main/demo2_GyMWnF1T.mp4)
+
 
 ---
 
